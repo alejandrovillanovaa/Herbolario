@@ -44,7 +44,7 @@ export function Products() {
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
           {categories.map((cat, i) => (
             <Reveal key={cat.name} delay={i * 0.1}>
-              
+              <a
                 href="#visitanos"
                 className="group relative block overflow-hidden rounded-2xl aspect-[4/3]"
               >
