@@ -24,7 +24,7 @@ export function Header() {
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {links.map((link) => (
-            
+            <a
               key={link.href}
               href={link.href}
               className="text-sm text-ink/70 hover:text-forest transition-colors duration-300"
@@ -33,7 +33,7 @@ export function Header() {
             </a>
           ))}
         </nav>
-        
+        <a
           href="#visitanos"
           className="text-sm font-medium px-5 py-2.5 rounded-full bg-forest text-cream hover:bg-forest-dark transition-colors duration-300"
         >
